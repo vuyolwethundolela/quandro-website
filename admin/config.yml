@@ -24,6 +24,23 @@ collections:
               - { label: "Media file", name: "src", widget: "file" }
               - { label: "Caption", name: "caption", widget: "string", required: false }
 
+  - name: "shows"
+    label: "Upcoming Shows"
+    files:
+      - file: "shows.json"
+        label: "Show Dates"
+        name: "shows"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.date}} — {{fields.venue}}"
+            fields:
+              - { label: "Date", name: "date", widget: "date", format: "YYYY-MM-DD" }
+              - { label: "Venue", name: "venue", widget: "string" }
+              - { label: "City", name: "city", widget: "string" }
+              - { label: "Ticket / RSVP Link", name: "ticketUrl", widget: "string", required: false }
+
   - name: "releases"
     label: "Featured Releases"
     files:
