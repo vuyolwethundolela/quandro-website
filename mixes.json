@@ -1,0 +1,16 @@
+{
+  "featured": {
+    "number": "FEATURED · MIX 01",
+    "title": "We Don't Play the Same Afro (Part II)",
+    "category": "Afro House / Afro",
+    "url": "https://www.youtube.com/watch?v=-uYeZEsGAFE&t=2368s"
+  },
+  "items": [
+    { "number": "MIX 02", "title": "We Don't Play The Same Afro", "category": "Afro House", "url": "https://www.youtube.com/watch?v=DUfOF0Ffm9Q&t=2174s" },
+    { "number": "MIX 03", "title": "We Don't Play the Same House (Part II)", "category": "House", "url": "https://www.youtube.com/watch?v=mSE0H8EanT8&t=709s" },
+    { "number": "MIX 04", "title": "We Don't Play The Same House", "category": "House Music", "url": "https://www.youtube.com/watch?v=2ihNJ6MVhxs&t=1257s" },
+    { "number": "MIX 05", "title": "Back To The Future (Kwaito Mix)", "category": "Kwaito / House", "url": "https://www.youtube.com/watch?v=jaid3Hmg7Ec&t=18s" },
+    { "number": "MIX 06", "title": "Back to House (Classic House)", "category": "Classic House", "url": "https://www.youtube.com/watch?v=mIi4OX8JSIk" },
+    { "number": "MIX 07", "title": "3 Steps To AfroTech", "category": "3Step / AfroTech", "url": "https://www.youtube.com/watch?v=Jb248DKjNBQ&t=1325s" }
+  ]
+}
