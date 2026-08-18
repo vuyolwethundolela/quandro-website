@@ -1,7 +1,49 @@
 {
   "items": [
-    { "type": "image", "src": "/pic.jpeg", "caption": "QUANDRO" },
-    { "type": "image", "src": "/pic1.jpeg", "caption": "Live" },
-    { "type": "image", "src": "/pic2.jpeg", "caption": "Performance" }
+    {
+      "type": "image",
+      "src": "/pic.jpeg",
+      "caption": "QUANDRO"
+    },
+    {
+      "type": "image",
+      "src": "/pic1.jpeg",
+      "caption": "QUANDRO"
+    },
+    {
+      "type": "image",
+      "src": "/pic2.jpeg",
+      "caption": "QUANDRO"
+    },
+    {
+      "type": "image",
+      "caption": "QUANDRO",
+      "src": "/uploads/whatsapp-image-2026-08-18-at-10.50.33.jpeg"
+    },
+    {
+      "type": "image",
+      "src": "/uploads/whatsapp-image-2026-08-18-at-10.50.33-1-.jpeg",
+      "caption": "QUANDRO"
+    },
+    {
+      "type": "image",
+      "src": "/uploads/whatsapp-image-2026-08-18-at-10.50.33-2-.jpeg",
+      "caption": "QUANDRO"
+    },
+    {
+      "type": "image",
+      "src": "/uploads/whatsapp-image-2026-08-18-at-10.50.33-3-.jpeg",
+      "caption": "QUANDRO"
+    },
+    {
+      "type": "image",
+      "src": "/uploads/whatsapp-image-2026-08-18-at-10.50.34.jpeg",
+      "caption": "QUANDRO"
+    },
+    {
+      "type": "image",
+      "src": "/uploads/whatsapp-image-2026-08-18-at-10.50.34-2-.jpeg",
+      "caption": "QUANDRO"
+    }
   ]
 }
