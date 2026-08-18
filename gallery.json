@@ -1,0 +1,7 @@
+{
+  "items": [
+    { "type": "image", "src": "/pic.jpeg", "caption": "QUANDRO" },
+    { "type": "image", "src": "/pic1.jpeg", "caption": "Live" },
+    { "type": "image", "src": "/pic2.jpeg", "caption": "Performance" }
+  ]
+}
