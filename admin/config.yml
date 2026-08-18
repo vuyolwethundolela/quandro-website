@@ -23,3 +23,44 @@ collections:
               - { label: "Type", name: "type", widget: "select", options: ["image", "video"], default: "image" }
               - { label: "Media file", name: "src", widget: "file" }
               - { label: "Caption", name: "caption", widget: "string", required: false }
+
+  - name: "releases"
+    label: "Featured Releases"
+    files:
+      - file: "releases.json"
+        label: "Release Items"
+        name: "releases"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "YouTube Link", name: "url", widget: "string" }
+
+  - name: "mixes"
+    label: "Mixes"
+    files:
+      - file: "mixes.json"
+        label: "Mixes"
+        name: "mixes"
+        fields:
+          - label: "Featured Mix"
+            name: "featured"
+            widget: "object"
+            fields:
+              - { label: "Label", name: "number", widget: "string", default: "FEATURED · MIX 01", hint: "e.g. FEATURED · MIX 01" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Category", name: "category", widget: "string" }
+              - { label: "YouTube Link", name: "url", widget: "string" }
+          - label: "Other Mixes"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Label", name: "number", widget: "string", hint: "e.g. MIX 02" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Category", name: "category", widget: "string" }
+              - { label: "YouTube Link", name: "url", widget: "string" }
+
