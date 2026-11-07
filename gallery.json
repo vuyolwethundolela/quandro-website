@@ -2,6 +2,10 @@
   "items": [
     {
       "type": "image",
+      "src": "/uploads/cinematic-profile-with-cyan-rim-light.png"
+    },
+    {
+      "type": "image",
       "src": "/pic.jpeg",
       "caption": "QUANDRO"
     },
